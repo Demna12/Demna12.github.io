@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'BPG Square';
+    src: url('../fonts/BPGSquare.eot');
+    src: url('../fonts/BPGSquare.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BPGSquare.woff2') format('woff2'),
+        url('../fonts/BPGSquare.woff') format('woff'),
+        url('../fonts/BPGSquare.ttf') format('truetype'),
+        url('../fonts/BPGSquare.svg#BPGSquare') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BPG Square Mtavruli';
+    src: url('../fonts/BPGSquareMtavruli.eot');
+    src: url('../fonts/BPGSquareMtavruli.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BPGSquareMtavruli.woff2') format('woff2'),
+        url('../fonts/BPGSquareMtavruli.woff') format('woff'),
+        url('../fonts/BPGSquareMtavruli.ttf') format('truetype'),
+        url('../fonts/BPGSquareMtavruli.svg#BPGSquareMtavruli') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BPG Excelsior DejaVu';
+    src: url('../fonts/BPGExcelsiorDejaVu.eot');
+    src: url('../fonts/BPGExcelsiorDejaVu.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BPGExcelsiorDejaVu.woff2') format('woff2'),
+        url('../fonts/BPGExcelsiorDejaVu.woff') format('woff'),
+        url('../fonts/BPGExcelsiorDejaVu.ttf') format('truetype'),
+        url('../fonts/BPGExcelsiorDejaVu.svg#BPGExcelsiorDejaVu') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?rwioei');
+    src:  url('../fonts/icomoon.eot?rwioei#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?rwioei') format('truetype'),
+      url('../fonts/icomoon.woff?rwioei') format('woff'),
+      url('../fonts/icomoon.svg?rwioei#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-instagram-brands:before {
+    content: "\e900";
+  }
+  .icon-linkedin-brands:before {
+    content: "\e901";
+  }
+  .icon-twitter-brands:before {
+    content: "\e902";
+  }
+  .icon-facebook-f-brands:before {
+    content: "\e903";
+  }
